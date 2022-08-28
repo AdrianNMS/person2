@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(value = "person")
+@Table(name = "person")
 public class Person extends Audit
 {
     @Id
